@@ -1,0 +1,26 @@
+Algoritmo "Calculo de difereça de idade"
+
+Var
+// Seção de Declarações das variáveis 
+    nome1,nome2: caractere
+    idade1, idade2, resultado: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva ("Qual o nome da primeira pessoa? ")
+   leia (nome1)
+   escreva ("Qual a sua idade? ")
+   leia (idade1)
+   escreva ("Qual o nome da segunda pessoa? ")
+   leia (nome2)
+   escreva ("Qual a sua idade? ")
+   leia (idade2)
+   se (idade1>idade2)  então
+   resultado:= idade1-idade2
+   escreva(nome1," você é",resultado," mais velho que ",nome2)
+   senão
+   resultado:= idade2-idade1
+   escreva(nome2," você é",resultado," mais velho que ",nome1)
+   fimse
+   
+Fimalgoritmo
